@@ -1,0 +1,30 @@
+name = OpenProtocol
+description = An openProtocol installation
+core = 6.x
+dependencies[] = search
+dependencies[] = dblog
+dependencies[] = comment
+dependencies[] = menu
+
+dependencies[] = admin
+dependencies[] = content
+dependencies[] = optionwidgets
+dependencies[] = text
+dependencies[] = userreference
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = logintoboggan
+dependencies[] = nodequeue
+dependencies[] = smartqueue_users
+dependencies[] = strongarm
+
+dependencies[] = protocol_base
+
+theme = protocol
+
+variables[admin_theme] = rubik
+
+nodes[about][type] = page
+nodes[about][title] = "About"
+nodes[about][body] = "This is some information about OpenProtocol"
+nodes[about][uid] = 1
