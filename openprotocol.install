@@ -1,0 +1,13 @@
+<?php
+
+function openprotocol_install() {
+  $link = array(
+    'link_title' => 'About',
+    'menu_name' => 'primary-links',
+    'mlid' => 0,
+    'weight' => -48,
+    'link_path' => 'node/1',
+    'router_path' => 'node/%',
+  );
+  menu_link_save($link);
+}
